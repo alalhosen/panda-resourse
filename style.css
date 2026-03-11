@@ -191,13 +191,18 @@
 
 /* mobile device */
 @media screen and (max-width:640px) {
+.body{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
     #tv-section{
     margin-top: 100px;
     text-align: center;
     /* display: flex; */
     display: block;
     background-color: bisque;
-    padding: 15px;
+    padding: 10px;
 }
 .categories{
     /* display: flex; */
@@ -226,6 +231,16 @@
 .shoes2{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.bag-container{
+    display: flex;
+    gap: 20px;
+    display: block;
+}
+.bag2{
+    margin-top: 55px;
+    margin-bottom: 55px;
 }
 
 }
