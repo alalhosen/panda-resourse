@@ -156,9 +156,11 @@
 }
 
 #footer{
-    margin-top: 100px;
+    /* margin-top: 100px; */
     background-color: rgb(247, 223, 187);
-    margin-top: 20px;
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     /* padding: 100px; */
     /* justify-content: center; */
     text-align: center;
@@ -207,6 +209,10 @@
 #categories-section{
     padding: 10px;
 }
+.categories-img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 #shoes{
     margin-top: 100px;
@@ -216,6 +222,10 @@
     display: flex;
     gap: 20px;
     display: block;
+}
+.shoes2{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 }
